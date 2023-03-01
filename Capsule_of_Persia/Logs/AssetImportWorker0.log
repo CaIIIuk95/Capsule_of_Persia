@@ -1,0 +1,232 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Millionaire/Documents/GitHub/Capsule_of_Persia/Capsule_of_Persia
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57873
+Successfully changed project path to: C:/Users/Millionaire/Documents/GitHub/Capsule_of_Persia/Capsule_of_Persia
+C:/Users/Millionaire/Documents/GitHub/Capsule_of_Persia/Capsule_of_Persia
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 109.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Millionaire/Documents/GitHub/Capsule_of_Persia/Capsule_of_Persia/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3993 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006300 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (569ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (417ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Millionaire\Documents\GitHub\Capsule_of_Persia\Capsule_of_Persia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Millionaire\Documents\GitHub\Capsule_of_Persia\Capsule_of_Persia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.3 KB). Loaded Objects now: 3939.
+Memory consumption went from 130.7 MB to 130.6 MB.
+Total: 4.769200 ms (FindLiveObjects: 0.595900 ms CreateObjectMapping: 0.117100 ms MarkObjects: 3.890200 ms  DeleteObjects: 0.164700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 477504.775296 seconds.
+  path: Assets/Cloud.mat
+  artifactKey: Guid(527f0325959c1754e9d97d257e6426ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cloud.mat using Guid(527f0325959c1754e9d97d257e6426ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5473b231ba27b652fa4c2c078fdfcb') in 0.140978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 282.331425 seconds.
+  path: Assets/Prefabs/Bear.prefab
+  artifactKey: Guid(f26efef85d95cc048b45126cff6e6174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bear.prefab using Guid(f26efef85d95cc048b45126cff6e6174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852de78dba6401b57dbf93c02cf77833') in 0.055838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.941618 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Cloud_01.prefab
+  artifactKey: Guid(1939611913b4d6b4088e5f38fe9d68d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Cloud_01.prefab using Guid(1939611913b4d6b4088e5f38fe9d68d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d11264796d5c8ec4f72fba8c67831f9') in 0.098702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Grass_Patch_03.prefab
+  artifactKey: Guid(0ea34df2a10c42b40be8e877acda2f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Grass_Patch_03.prefab using Guid(0ea34df2a10c42b40be8e877acda2f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdaaefa6bb61b3d23ecff11f195cc86') in 0.076320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Mountains_Snow_01.prefab
+  artifactKey: Guid(201e9761e8cc5814091db4c8e1849032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Mountains_Snow_01.prefab using Guid(201e9761e8cc5814091db4c8e1849032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec73edb698e9a55c085f434078cb204c') in 0.064323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Grass_Patch_01.prefab
+  artifactKey: Guid(c97249061602607499e14777fbd7b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Grass_Patch_01.prefab using Guid(c97249061602607499e14777fbd7b065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c18e7eba235fee76c36d223a0cd7efa') in 0.055844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_TreeDead_01.prefab
+  artifactKey: Guid(84441d02811742b4aa22919abc039bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_TreeDead_01.prefab using Guid(84441d02811742b4aa22919abc039bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4a0cb7b816e375f305a66be517d3f5') in 0.051935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Tree_02.prefab
+  artifactKey: Guid(634d59ffe836de04c96be01de6904b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Tree_02.prefab using Guid(634d59ffe836de04c96be01de6904b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0bdd319136d956bbf07b1c146f4288') in 0.052346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Tree_04.prefab
+  artifactKey: Guid(86a9e997ee755984faaf7773f4eb0692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Tree_04.prefab using Guid(86a9e997ee755984faaf7773f4eb0692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e346c1a432a7e655d73d08238eb441b') in 0.050418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_TreeStump_01.prefab
+  artifactKey: Guid(e02cf2ee8d0ab1d458be20224b369056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_TreeStump_01.prefab using Guid(e02cf2ee8d0ab1d458be20224b369056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3165640a541d60538877a7ea7e82e488') in 0.067246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab
+  artifactKey: Guid(9558b56ef0b89dd408cb6b1e57367887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab using Guid(9558b56ef0b89dd408cb6b1e57367887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41541a18c00c887d577f6904861fd7b1') in 0.053909 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
