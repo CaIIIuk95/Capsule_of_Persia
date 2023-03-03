@@ -23,7 +23,7 @@ public class RopeGun : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(2))
+        if (Input.GetMouseButtonDown(2) || Input.GetKeyDown(KeyCode.E))
         {
             Shot();
         }

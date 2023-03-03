@@ -16,7 +16,7 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1) || Input.GetKey(KeyCode.Q))
         {
             Time.timeScale=TimeScale;
             
