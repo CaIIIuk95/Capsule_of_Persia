@@ -132,12 +132,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3332b9e9583fbb24ab3bb7c5bda69349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PosA: {fileID: 3236993533772856711}
-  PosB: {fileID: 3236993533648471288}
-  Speed: 3
-  StopTime: 2
-  CurrentDirection: 0
-  RayStart: {fileID: 3236993533597296734}
+  posA: {fileID: 3236993533772856711}
+  posB: {fileID: 3236993533648471288}
+  speed: 3
+  stopTime: 2
+  currentDirection: 0
+  rayStart: {fileID: 3236993533597296734}
   EventOnRightTarget:
     m_PersistentCalls:
       m_Calls:

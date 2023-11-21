@@ -5,7 +5,8 @@ using UnityEngine.Events;
 
 public class ParentEvent : MonoBehaviour
 {
-    public UnityEvent Event0,Event1;
+    public UnityEvent Event0;
+    public UnityEvent Event1;
 
     public void StartEvent()
     {

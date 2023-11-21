@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class TakeDamageFromPlayer : MonoBehaviour
 {
-    public EnemyHealth EnemyHealth;
-    public void OnTriggerEnter(Collider other)
+    [SerializeField] private EnemyHealth EnemyHealth;
+    private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<PlayerHealth>())
-        EnemyHealth.TakeDamage(1);
+            EnemyHealth.TakeDamage(1);
     }
 
-    public void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.GetComponent<PlayerHealth>())
-        EnemyHealth.TakeDamage(1);
+            EnemyHealth.TakeDamage(1);
     }
 }

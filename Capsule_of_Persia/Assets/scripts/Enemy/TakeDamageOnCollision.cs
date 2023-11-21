@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class TakeDamageOnCollision : MonoBehaviour
 {
-    public EnemyHealth EnemyHealth;
-    public Blink Blink;
-    public bool TakeDamageFromPlayer;
-    public bool TakeDamageFromAnyCollision;
-   
+    [SerializeField] private EnemyHealth EnemyHealth;
+    [SerializeField] private Blink Blink;
+    [SerializeField] private bool TakeDamageFromPlayer;
+    [SerializeField] private bool TakeDamageFromAnyCollision;
+
     private void OnCollisionEnter(Collision other)
     {
-       
-        
+
+
         if (other.rigidbody)
         {
             if (other.rigidbody.GetComponent<Bullet>())
-            TakeDamageOnColl();
-            
+                TakeDamageOnColl();
+
             if (TakeDamageFromPlayer)
-            if (other.rigidbody.GetComponent<PlayerHealth>())
-            TakeDamageOnColl();
-            
+                if (other.rigidbody.GetComponent<PlayerHealth>())
+                    TakeDamageOnColl();
+
         }
         if (TakeDamageFromAnyCollision)
             TakeDamageOnColl();
@@ -29,10 +29,10 @@ public class TakeDamageOnCollision : MonoBehaviour
 
     private void TakeDamageOnColl()
     {
-        
+
         EnemyHealth.TakeDamage(1);
-        if (Blink!=null)
-        Blink.StartBlink();
+        if (Blink != null)
+            Blink.StartBlink();
     }
 }
 

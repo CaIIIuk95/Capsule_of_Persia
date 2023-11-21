@@ -96,9 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f257f72662e1844284b540515dcf2f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  Speed: 3
-  TimeToRichSpeed: 1
+  player: {fileID: 0}
+  ownRigidbody: {fileID: 0}
+  speed: 3
+  timeToRichSpeed: 1
 --- !u!114 &3195517459040362010
 MonoBehaviour:
   m_ObjectHideFlags: 0

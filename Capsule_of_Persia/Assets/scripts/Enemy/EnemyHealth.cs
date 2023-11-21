@@ -7,28 +7,28 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int Health=1;
-    public float ActivateDistance=20f;
-    
+    [SerializeField] private int Health = 1;
+    public float ActivateDistance = 20f;
+
     public void TakeDamage(int damageValue)
     {
-        Health-=damageValue;
-        if (Health<=0)
+        Health -= damageValue;
+        if (Health <= 0)
         {
             Die();
         }
     }
 
-    public void Die()
+    private void Die()
     {
         Destroy(gameObject);
     }
-   
-    #if UNITY_EDITOR
+
+#if UNITY_EDITOR
     private void OnDrawGizmosSelected()
     {
-        Handles.color=Color.gray;
-        Handles.DrawWireDisc(transform.position,Vector3.forward,ActivateDistance);
+        Handles.color = Color.gray;
+        Handles.DrawWireDisc(transform.position, Vector3.forward, ActivateDistance);
     }
-    #endif
+#endif
 }

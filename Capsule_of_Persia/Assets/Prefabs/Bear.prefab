@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 5
+  ActivateDistance: 20
 --- !u!114 &6883584399575664706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,8 +191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca167957f87eab4f907ada66c1ed7b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RocketPrefab: {fileID: 3697360371531949770, guid: 3f87ee4b9aee3224e93531dd4ef33a9b, type: 3}
-  Spawn: {fileID: 6883584399136756693}
+  rocketPrefab: {fileID: 3697360371531949770, guid: 3f87ee4b9aee3224e93531dd4ef33a9b, type: 3}
+  spawn: {fileID: 6883584399136756693}
 --- !u!1001 &6883584399109544111
 PrefabInstance:
   m_ObjectHideFlags: 0

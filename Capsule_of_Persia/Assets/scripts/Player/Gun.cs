@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -39,14 +37,7 @@ public class Gun : MonoBehaviour
         {
             if (BulletCount>0)
             {
-                BulletCountText.text=BulletCount.ToString();
-                if (_timer>ShotPeriod)
-                {       
-                    if (Input.GetMouseButton(0))
-                    {
-                        Shot();
-                    }
-                }
+                TryShot();
             }
             else
             {  
@@ -65,7 +56,18 @@ public class Gun : MonoBehaviour
             }
         }
     }
-    
+
+    private void TryShot()
+    {
+        BulletCountText.text = BulletCount.ToString();
+        if (_timer > ShotPeriod)
+        {
+            if (Input.GetMouseButton(0))
+            {
+                Shot();
+            }
+        }
+    }
 
     public void HideFlash()
     {

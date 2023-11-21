@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Attach : MonoBehaviour
 {
-    public Transform Target;
-    void Update()
+    [SerializeField] private Transform target;
+    private void Update()
     {
-       transform.position=Target.transform.position; 
+       transform.position=target.transform.position; 
     }
 }

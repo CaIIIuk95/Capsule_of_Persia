@@ -98,6 +98,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 5037984644166441799}
   Blink: {fileID: 5037984644166441796}
+  TakeDamageFromPlayer: 0
+  TakeDamageFromAnyCollision: 0
 --- !u!114 &5037984644166441796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 5
+  ActivateDistance: 20
 --- !u!114 &5037984644166441792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,8 +186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c373fa9574e46044b807d757135aad66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 5452492084117649040, guid: 5cb86b88081add64d822d43e65625c6c, type: 3}
-  Spawn: {fileID: 5037984643822270972}
+  prefab: {fileID: 5452492084117649040, guid: 5cb86b88081add64d822d43e65625c6c, type: 3}
+  spawn: {fileID: 5037984643822270972}
 --- !u!1001 &5037984642893001918
 PrefabInstance:
   m_ObjectHideFlags: 0
